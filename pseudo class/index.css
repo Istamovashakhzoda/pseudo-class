@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: gray;
+  margin: 15px 0;
+}
+
+h3 {
+  margin-left: 40px;
+  color: olive;
+  text-align: center;
+}
+
+h3::after {
+  content: "keyingi elment";
+  color: blueviolet;
+  font-size: 25px;
+}
+
+h3::before {
+  content: "oldingi element";
+  color: lawngreen;
+  font-size: 25px;
+}
+
+.text-1 {
+  text-align: center;
+  line-height: 40px;
+}
+
+.text-1::first-letter {
+  color: fuchsia;
+  font-size: 30px;
+}
+
+.text-2 {
+  text-align: center;
+  line-height: 35px;
+}
+
+.text-2::first-line {
+  font-size: 26px;
+  color: hotpink;
+}
+
+ol {
+  margin-left: 150px;
+  line-height: 25px;
+  font-size: 24px
+}
+
+ol li::marker {
+  color: blueviolet;
+
+}
+
+.clear {
+  clear: both;
+}
+
+ul {
+  margin-left: 150px;
+  line-height: 25px;
+  font-size: 24px;
+}
+
+ul li::marker {
+  color: sienna;
+}
+
+form {
+  width: 300px;
+  margin: 50px auto;
+  border: 1px solid black;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+form input {
+  font-size: 25px;
+  border-radius: 5px;
+  background-color: white;
+  width: 100%;
+  color: brown;
+}
+
+button {
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 24px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 15px;
+}
+
+form input::placeholder {
+  color: brown;
+}
